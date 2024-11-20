@@ -1,0 +1,121 @@
+body{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100vh 100vh  100vh  20vh;
+    justify-items: stretch;
+    align-items: stretch;
+    align-content:stretch;
+    justify-content: stretch;
+    grid-template-areas:"caja1"
+                        "caja2"
+                        "caja3"
+                        "footer";
+    
+    
+}
+div{
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+
+.caja1{
+    grid-area:caja1;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    background-image: url(img/imagen1.jpg);
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-size: 200vh;
+    
+
+}
+.caja2{
+    grid-area:caja2;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    
+}
+.caja3{
+    grid-area:caja3;
+    
+}
+footer{
+    background-color: #322e2e;
+    grid-area:footer;
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto ;
+    grid-template-areas: "foot1 foot2";
+    align-content: center;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+.caja2-1{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: "c1 c2"
+                         "c3 c4";
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    grid-gap: 50px;
+    
+}
+.c1{
+    grid-area: c1;
+}
+.c2{
+    grid-area: c2;
+}
+.c3{
+    grid-area: c3;
+}
+.c2{
+    grid-area: c2;
+}
+a{
+    background-color: blueviolet;
+    border: solid 1px rgb(50, 14, 83);
+    text-align: center;
+    color: #ccc;
+    font-size: 20px;
+}
+a:hover{
+    background-color: black;
+}
+p{
+    text-align: justify;
+}
+.img-size{
+    height: 150px;
+    width: 250px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
